@@ -5,12 +5,14 @@ System.out.println("The Animal is Making Sound");
 }
 
 class Dog extends Animal {
+@override
 void makesound() {
  System.out.println("The Dog is Barking at the Theif");
    }
 }
 
 class Cat extends Animal {
+@override
 void makesound() {
  System.out.println("The Cat is Mewoing at the Owner");
    }
